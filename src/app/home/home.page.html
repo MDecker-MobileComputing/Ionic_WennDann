@@ -12,13 +12,17 @@
 
         <ion-item>
           <ion-label>
+
             <h1>Zufallszahl: {{ zufallszahl }}</h1>
+
             <div *ngIf="istGerade">
                 <h2>Zahl ist gerade.</h2>
             </div>
+
             <div *ngIf="!istGerade">
                 <h2>Zahl ist ungerade.</h2>
             </div>
+
           </ion-label>
         </ion-item>
 

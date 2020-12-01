@@ -48,6 +48,10 @@ export class AppComponent {
       {
         titel: "Zufallszahlen 2",
         ziel: "/seite2"
+      },
+      {
+        titel: "Zufallszahlen 3",
+        ziel: "/seite3"
       }
     ];
   }
