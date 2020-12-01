@@ -19,6 +19,7 @@
             <div *ngIf="zufallszahl % 2 === 0; else sonstBlock">
                 <h2>Zahl ist gerade.</h2>
             </div>
+
             <ng-template #sonstBlock>
                 <h2>Zahl ist ungerade.</h2>
             </ng-template>
