@@ -1,20 +1,17 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-seite2',
+  templateUrl: './seite2.page.html',
+  styleUrls: ['./seite2.page.scss'],
 })
-export class HomePage {
+export class Seite2Page  {
 
   /**
    * Member-Variable mit Zufallszahl, wird durch Interpolation dargestellt
    * und von Lifecycle-Methode gefüllt.
    */
   private zufallszahl : number = -1;
-
-  /** Bool'sche Variable, die genau dann `true` ist, wenn `zufallszahl` eine gerade Zahl ist. */
-  private istGerade = false;
 
 
   /**
@@ -23,15 +20,6 @@ export class HomePage {
   private ionViewWillEnter() {
 
     this.zufallszahl = 1 + Math.round( Math.random()*99 );
-
-    if (this.zufallszahl % 2 === 0) {
-
-        this.istGerade = true;
-
-    } else {
-
-        this.istGerade = false;
-    }
   }
 
 }

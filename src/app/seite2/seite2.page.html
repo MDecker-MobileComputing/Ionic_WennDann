@@ -3,7 +3,7 @@
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
-      <ion-title>Zufallszahlen 1</ion-title>
+      <ion-title>Zufallszahlen 2</ion-title>
     </ion-toolbar>
   </ion-header>
 <ion-content [fullscreen]="true">
@@ -13,10 +13,10 @@
         <ion-item>
           <ion-label>
             <h1>Zufallszahl: {{ zufallszahl }}</h1>
-            <div *ngIf="istGerade">
+            <div *ngIf="zufallszahl % 2 === 0">
                 <h2>Zahl ist gerade.</h2>
             </div>
-            <div *ngIf="!istGerade">
+            <div *ngIf="zufallszahl % 2 === 1">
                 <h2>Zahl ist ungerade.</h2>
             </div>
           </ion-label>
