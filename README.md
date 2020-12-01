@@ -1,6 +1,6 @@
 # Ionic-App "Wenn-Dann" #
 
-Simple [Ionic](https://ionicframework.com) app to demonstrate usage of structural directive `*ngIf`.
+Simple [Ionic](https://ionicframework.com) app to demonstrate usage of structural directives `*ngIf` and `ngSwitch`.
 
 <br>
 
