@@ -60,7 +60,12 @@ export class AppComponent {
       {
         titel: "Zufällige Stadt 2",
         ziel: "/seite5"
+      },
+      {
+        titel: "Produkte",
+        ziel: "/seite6"
       }
+
     ];
   }
 

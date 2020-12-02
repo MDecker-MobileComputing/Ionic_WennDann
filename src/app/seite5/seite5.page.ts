@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class Seite5Page  {
 
   /** Array von Codes, aus denen jeder für eine Stadt steht. */
-  readonly CODE_ARRAY = [ "A1", "B2", "C3", "D4" ];
+  private readonly CODE_ARRAY = [ "A1", "B2", "C3", "D4" ];
 
   /** Member-Variable, die von `ngSwitch` ausgewertet wird. Enthält einen zufällig ausgewählten Code aus `CODE_ARRAY`. */
   private zufaelligerCode = "";
