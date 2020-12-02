@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 
+
+/**
+ * Seite zeigt Kombination von *ngFor und *ngIf.
+ */
 @Component({
   selector: 'app-seite6',
   templateUrl: './seite6.page.html',
