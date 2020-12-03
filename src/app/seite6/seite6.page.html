@@ -9,9 +9,9 @@
 
 <ion-content [fullscreen]="true">
 
-    <ion-list *ngFor="let zeile of PRODUKTE_ARRAY">
+    <ion-list>
 
-        <ion-item>
+        <ion-item *ngFor="let zeile of PRODUKTE_ARRAY">
           <ion-label>
 
             <h1>{{zeile.name}}</h1>
