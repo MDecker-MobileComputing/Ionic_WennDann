@@ -5,6 +5,15 @@ Simple [Ionic](https://ionicframework.com) app to demonstrate usage of structura
 <br>
 
 ----
+## Screenshots ##
+
+![Screenshot 1](screenshot_1.png)   ![Screenshot 2](screenshot_2.png)
+
+![Screenshot 3](screenshot_3.png)   ![Screenshot 4](screenshot_4.png)
+
+<br>
+
+----
 ## Run the app locally ##
 
 Prerequisite: NPM package [`@ionic/cli`](https://www.npmjs.com/package/@ionic/cli) must be installed globally.
